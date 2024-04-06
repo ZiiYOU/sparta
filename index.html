@@ -101,6 +101,7 @@
 
             await addDoc(collection(db, "movies"), doc)
             alert('저장완료!')
+            window.location.reload();
         });
 
         $("#savebtn").click(async function () {
